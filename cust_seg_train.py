@@ -21,6 +21,7 @@ from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 from sklearn.metrics import confusion_matrix, classification_report, ConfusionMatrixDisplay
 
 from cust_seg_module import EDA, FeatSel, ModDev, ModEval
+from tensorflow.keras.utils import plot_model
 from tensorflow.keras.callbacks import EarlyStopping, TensorBoard, ModelCheckpoint
 
 #%% Constant saving paths
@@ -107,6 +108,8 @@ md = ModDev()
 nb_class = len(np.unique(y, axis=0))
 
 model = md.dl_model(X_train, nb_class, dropout_rate=0.2)
+
+plot_model(model, show_shapes=(True))
 
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['acc'])
 
