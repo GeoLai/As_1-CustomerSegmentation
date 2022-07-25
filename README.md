@@ -1,5 +1,5 @@
 # 1. Project Title
-Assessment-1: Customer Segmentation in Bank's Term Deposit Subscription
+Customer Segmentation in Bank's Term Deposit Subscription
 
 # 2. Project Description
 Marketing campaigns are characterized by focusing on customer needs and their overall satisfaction. Nevertheless, there are different variables that determine whether a marketing campaign will be successful or not. Some important aspects of a marketing campaign are as follows:
@@ -17,7 +17,7 @@ You are provided a dataset containing details of marketing campaigns done via ph
 # 3. Data Description
 Train Set
 
-Contains the ![data](https://github.com/GeoLai/As_1-CustomerSegmentation/tree/main/dataset) to be used for model building and model testing. It can be segregated into training set and testing set. It has the true labels for whether the customer subscribed for term deposit (1) or not (0)
+Contains the ![data](https://github.com/GeoLai/Customer-Segmentation-of-Bank-Termed-Deposit-Subscription/tree/main/dataset) to be used for model building and model testing. It can be segregated into training set and testing set. It has the true labels for whether the customer subscribed for term deposit (1) or not (0)
 
 This data however was presented with issue of imbalanced data where further sampling required. The training of this project is without post-sampling work which can be very biased towards certain class classification. It is adviced to proceed with post-sampling task to balance out the dataset. Please be reminded that this task may has it owns pros and cons. Use it at your discretion.
 
@@ -27,12 +27,12 @@ This project was run in Conda environment using Spyder IDE (Interactive Developm
 For computer that does not have GPU, you might want to use external workspace such as ![Google Colab](https://colab.research.google.com/?utm_source=scs-index) for running your scripts which no additional modules installation are required.
 
 # 5. How to Use the Project
-The full ![code](https://github.com/GeoLai/As_1-CustomerSegmentation/blob/main/cust_seg_train.py) can be viewed here as a reference. For cleaner code construction, I have written some modules in a separate ![module](https://github.com/GeoLai/As_1-CustomerSegmentation/blob/main/cust_seg_module.py) file which some of tuning can be done during model training.
+The full ![code](https://github.com/GeoLai/Customer-Segmentation-of-Bank-Termed-Deposit-Subscription/blob/main/cust_seg_train.py) can be viewed here as a reference. For cleaner code construction, I have written some modules in a separate ![module](https://github.com/GeoLai/Customer-Segmentation-of-Bank-Termed-Deposit-Subscription/blob/main/cust_seg_module.py) file which some of tuning can be done during model training.
 
-Visuals are provided which were generated from data visualization of the data, training curves which displayed in Tensorboard, snippet of training scores, confusion matrix where located in the ![image](https://github.com/GeoLai/As_1-CustomerSegmentation/tree/main/images) folder.
+Visuals are provided which were generated from data visualization of the data, training curves which displayed in Tensorboard, snippet of training scores, confusion matrix where located in the ![image](https://github.com/GeoLai/Customer-Segmentation-of-Bank-Termed-Deposit-Subscription/tree/main/images) folder.
 
 # 6. Include Credits
-My sincere utmost appreciation to the sponsor of this course ![MIDA](https://www.mida.gov.my/) for allowing to participate in Malaysia Smart Factory 4.0 Data Science & Analytics, Dr. Chua, instructor Mr Alex Koh & Dr.Warren NL Loo for the guidance throughout our course in ![SHRDC](https://www.shrdc.org.my/) (Selangor Human Resource Development Corporation)
+Credits to owner of the dataset and the provider to Kaggle.
 
 Data provided by ![Kunal Gupta](https://www.kaggle.com/kunalgupta2616). Purpose for solution ![HackerEarth: HackLife](https://www.kaggle.com/datasets/kunalgupta2616/hackerearth-customer-segmentation-hackathon)
 
